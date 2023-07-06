@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@media screen and (max-width:768px) {
+
+    .relogio {
+        width: 95vw;
+    }
+
+    .relogio p {
+        font-size: 2.5em;
+    }
+
+    .bloco {
+        width: 25%;
+        height: 150px;
+    }
+
+    .bloco span {
+        font-size: 4em;
+    }
+
+    .bloco .tempo {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1200px) {
+
+    body {
+        background: linear-gradient(-115deg, #663de4, #663de4, #EAFF) fixed;
+    }
+   
+    .bloco {
+        width: 20%;
+    }
+
+    .bloco span {
+        font-size: 4.5em;
+    }
+
+    .bloco .tempo {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .relogio {
+        min-width: 40vw;
+        max-width: 50vw;
+    }
+
+    .bloco {
+        width: 25%;
+    }
+}
